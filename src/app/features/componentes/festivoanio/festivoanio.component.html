@@ -1,0 +1,17 @@
+<div class="form-container">
+    <mat-form-field>
+        <mat-label>Ingrese Año</mat-label>
+        <input matInput type="text" [(ngModel)]="anio">
+      </mat-form-field>
+    <button mat-flat-button (click)="listar()">Obtener festivos</button>
+</div>
+
+<ngx-datatable 
+[rows]="festivos" 
+[columns]="columnas" 
+[columnMode]="'force'" 
+[headerHeight]="50" 
+[footerHeight]="30"
+[rowHeight]="30" [scrollbarV]="false">
+
+</ngx-datatable>

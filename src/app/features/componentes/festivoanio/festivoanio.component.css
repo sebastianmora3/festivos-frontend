@@ -1,0 +1,5 @@
+.form-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Ajusta el espacio entre el input y el botón */
+}
