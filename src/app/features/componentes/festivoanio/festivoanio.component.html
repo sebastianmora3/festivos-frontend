@@ -6,12 +6,13 @@
     <button mat-flat-button (click)="listar()">Obtener festivos</button>
 </div>
 
-<ngx-datatable 
-[rows]="festivos" 
-[columns]="columnas" 
-[columnMode]="'force'" 
-[headerHeight]="50" 
-[footerHeight]="30"
-[rowHeight]="30" [scrollbarV]="false">
-
-</ngx-datatable>
+<div class="tabla-container">
+  <ngx-datatable class="icons dark datatable-body-cel"
+  [rows]="festivos" 
+  [columns]="columnas" 
+  [columnMode]="'force'" 
+  [headerHeight]="40" 
+  [footerHeight]="40"
+  [rowHeight]="30" [scrollbarV]="false">
+  </ngx-datatable>
+</div>

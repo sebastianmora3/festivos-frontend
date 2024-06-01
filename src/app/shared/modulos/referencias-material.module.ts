@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
@@ -46,12 +46,11 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
     MatMenuModule,
     MatSelectModule,
     MatCheckboxModule,
-
     MatNativeDateModule,
     MatDatepickerModule,
     MatAutocompleteModule,
-
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    MatSnackBarModule
   ]
 })
 

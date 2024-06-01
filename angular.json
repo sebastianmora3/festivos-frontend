@@ -87,7 +87,11 @@
             ],
             "styles": [
               "@angular/material/prebuilt-themes/azure-blue.css",
-              "src/styles.css"
+              "src/styles.css",
+              "@swimlane/ngx-datatable/themes/material.css",
+              "@swimlane/ngx-datatable/themes/bootsrap.css",
+              "@swimlane/ngx-datatable/themes/dark.css",
+              "@swimlane/ngx-datatable/themes/index.css"
             ],
             "scripts": []
           }

@@ -4,5 +4,6 @@ import { FestivofechaComponent } from './features/componentes/festivofecha/festi
 
 export const routes: Routes = [
    {path:"festivosfecha", component:FestivofechaComponent},
-   {path:"festivosanio", component:FestivoanioComponent}
+   {path:"festivosanio", component:FestivoanioComponent},
+   {path: '', redirectTo: '/festivosfecha', pathMatch: 'full'}
 ];

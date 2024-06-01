@@ -1,5 +1,18 @@
 .form-container {
     display: flex;
+    margin-top: 1%;
+    margin-left: 2%;
     align-items: center;
-    gap: 10px; /* Ajusta el espacio entre el input y el botón */
+    gap: 10px;
+}
+
+.tabla-container {
+    height: auto; 
+    width: 80%; 
+    margin-left: 10%; 
+    margin-top: 1%; 
+    margin-bottom: 100%; 
+    border-radius: 15px; 
+    overflow: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
