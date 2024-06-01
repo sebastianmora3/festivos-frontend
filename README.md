@@ -1,4 +1,18 @@
 # FestivosFrontend
+The present repository, corresponds to the consumption of the following API  [API Festivos](https://github.com/sebastianmora3/festivos), so it is necessary to have both repositories for the correct operation of the application
+
+## festivosfecha component
+It can be accessed via the path `http://localhost:4200/festivosfecha` this component allows you to check whether a date is a holiday or not. 
+![Preview](https://i.ibb.co/YNJYnrx/image.png)
+![Preview](https://i.ibb.co/DRtBwdh/image.png)
+
+
+## festivosanio component
+It can be accessed through the path `http://localhost:4200/festivosanio` this component allows you to see the complete list of holidays for a specific year.
+![Preview](https://i.ibb.co/vcjNgJh/image.png)
+![Preview](https://i.ibb.co/99D1hRQ/image.png)
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
 
@@ -25,3 +39,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
